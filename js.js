@@ -5,6 +5,7 @@ let arr = [a1,a2,a3];
 a1 = 1;a2 =2;a3 = 3;
 
 let i = -1;
+let slideCount = 0;
 let btn = document.getElementById("btnF");
 btn.addEventListener("click",goSlideForward);
 let btn1 = document.getElementById("btnR");
@@ -15,7 +16,7 @@ btn1.addEventListener("click",goSlideRevarse);
 let slider = document.getElementById("slider");
 
 let slVue1 = `
-                <h2 id="head1">Vue js Fundamentals Introduction</h2>
+                <h2 id="head1">Vue js Fundamentals Introduction Slide 1</h2>
                 <h3 id = "head2">What is Vue.js?</h3>
                 <img class="img" src="img/slideWhat1.PNG">
                 <p id="internal">
@@ -31,7 +32,7 @@ let slVue1 = `
                 </p>
               `;
 let slVue2 = `
-                <h2 id="head1">Your first Vue App</h2>
+                <h2 id="head1">Your first Vue App Slide 2</h2>
                 <p class="pera">First I’ll go through the most basic example of using Vue.</p>
                 <h3 id = "head2">First example</h3>
                 <p class="pera">
@@ -45,7 +46,7 @@ let slVue2 = `
                 </p>
               `;
 let slVue3 = `
-                <h2 id="head1">Vue.js Directives</h2>
+                <h2 id="head1">Vue.js Directives Slide 3</h2>
                 <h3 id = "head2">Data Binding</h3>
                 <p class="pera1">
                     Vue.js uses double braces {{ }} as place-holders for data.
@@ -67,7 +68,7 @@ let slVue3 = `
                 
               `;
 let slVue4 = `
-                 <h2 id="head1">VueJS - Instances</h2>
+                 <h2 id="head1">VueJS - Instances Slide 4</h2>
                  <h3 id = "head2">Data Binding</h3>  
                  <p class="pera">
                  To start with VueJS, we need to create the instance of Vue, which is called the root Vue Instance.
@@ -87,7 +88,7 @@ let slVue4 = `
               `;
 
 let slVue5 = `
-                <h2 id="head1">Vue Components</h2>
+                <h2 id="head1">Vue Components Slide 5</h2>
                 <p class="pera1">
                     Vue Components are one of the important features of VueJS that creates custom elements,
                     which can be reused in HTML.
@@ -106,7 +107,7 @@ let slVue5 = `
                 </p>
              `;
 let slVue6  = `
-                <h1>VueJS - Overview</h1>
+                <h1>VueJS - Overview Slide 6</h1>
                 <p class="pera1">
                     VueJS is an open source progressive JavaScript framework used to develop 
                     interactive web interfaces. It is one of the famous frameworks used to simplify web development. 
@@ -134,7 +135,8 @@ let slVue6  = `
               `;
 arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6 ];
 function goSlideForward() {
-    i++;
+    i++;slideCount++;
+    arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6 ];
     if (i >= arr.length){
         i = 0;
     }

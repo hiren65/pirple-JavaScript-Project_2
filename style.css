@@ -28,6 +28,7 @@ body{
     grid-column: 1/4;
     background-color: burlywood;
     border: darkkhaki 1px solid;
+    ;
 }
 #btnF{
     background-color: darkblue;
@@ -38,6 +39,7 @@ body{
     color: beige;
     font-size: 27px;
     cursor: pointer;
+    margin-bottom: 7px;
 }
 #btnR{
     background-color: darkblue;
@@ -49,6 +51,7 @@ body{
     font-size: 27px;
     cursor: pointer;
     float: right;
+    margin-bottom: 7px;
 }
 #head1{
     color: #5a6ba5;
