@@ -132,11 +132,131 @@ let slVue6  = `
                     <li>Computed Properties</li>
                     <li>Templates</li>
                 </ul>
+                <p class="pera1">In Next Slides We will see in brief! </p>
               `;
-arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6 ];
+let slVue7  = `
+                <h1>VueJS - Overview Slide - features Slide 7</h1>
+                <h2>Virtual DOM</h2>
+                <p class="pera1">
+                    VueJS makes the use of virtual DOM, which is also used by other frameworks such as React, Ember, etc. 
+                    The changes are not made to the DOM, instead a replica of the DOM is created which is present in the form of 
+                    JavaScript data structures. Whenever any changes are to be made, 
+                    they are made to the JavaScript data structures and the latter is compared with the original data structure. 
+                    The final changes are then updated to the real DOM, which the user will see changing.
+                    This is good in terms of optimization, it is less expensive and the changes can be made at a faster rate
+                </p>
+                <h2>Data Binding</h2>
+                <p class="pera1">
+                    The data binding feature helps manipulate or assign values to HTML attributes, change the style, 
+                    assign classes with the help of binding directive called v-bind available with VueJS.
+                </p>
+                <h2>Components</h2>
+                <p class="pera1">
+                    Components are one of the important features of VueJS that helps create custom elements,
+                    which can be reused in HTML.
+                </p>
+                <h2>Event Handling</h2>
+                <p class="pera1">
+                    v-on is the attribute added to the DOM elements to listen to the events in VueJS
+                </p>
+                <h2>Animation / Transition</h2>
+                <p class="pera1">
+                    VueJS provides various ways to apply transition to HTML elements when they are added/updated or removed from the DOM.
+                    VueJS has a built-in transition component that needs to be wrapped around the element for transition effect. 
+                    We can easily add third party animation libraries and also add more interactivity to the interface.
+                </p>
+                `;
+
+let slVue8  = `
+                <h1>VueJS - Overview Slide - features Slide 8</h1>
+                <h2>Computed Properties</h2>
+                <p class="pera1">This is one of the important features of VueJS. 
+                    It helps to listen to the changes made to the UI elements and performs the necessary calculations. 
+                    There is no need of additional coding for this.
+                </p>
+                <h2>Templates</h2>
+                <p class="pera1">
+                    VueJS provides HTML-based templates that bind the DOM with the Vue instance data. 
+                    Vue compiles the templates into virtual DOM Render functions. 
+                    We can make use of the template of the render functions and to do so we have 
+                    to replace the template with the render function.
+                </p>
+                <h2>Directives</h2>
+                <p class="pera1">
+                    VueJS has built-in directives such as v-if, v-else, v-show, v-on, v-bind, and v-model, 
+                    which are used to perform various actions on the frontend.
+                </p>
+                <h2>Watchers</h2>
+                <p class="pera1">
+                    Watchers are applied to data that changes. For example, form input elements. Here, 
+                    we don’t have to add any additional events.
+                    Watcher takes care of handling any data changes making the code simple and fast.
+                </p>
+                <h2>Routing</h2>
+                <p class="pera1">
+                    Navigation between pages is performed with the help of vue-router.
+                </p>
+                <h2>Light Weight</h2>
+                <p class="pera1">
+                    VueJS script is very lightweight and the performance is also very fast.
+                </p>
+                <h2>Vue-CLi </h2>
+                <p class="pera1">
+                    VueJS can be installed at the command line using the vue-cli command line interface. 
+                    It helps to build and compile the project easily using vue-cli.
+                </p>
+              `;
+let ff = "&lt"+"script"+"&gt";
+let slVue9  = `
+                <h1>VueJS - Environment Setup Slide 9</h1>
+                <p class="pera1">
+                    There are many ways to install VueJS. 
+                    Some of the ways on how to carry out the installation are discussed ahead.
+                </p>
+                <h2>Using the ${ff} tag directly in HTML file </h2>
+                <img class="img" src="img/enviroment.PNG">
+                <p class="pera1">
+                    Go to the home site https://vuejs.org/v2/guide/installation.
+                    html of VueJS and download the vue.js as per need. There are two versions for use - production 
+                    version and development version. The development version is not minimized, 
+                    whereas the production version is minimized as shown in the following screenshot. 
+                    Development version will help with the warnings and debug mode during the development of the project.
+                </p>
+                <img class="img" src="img/warning.PNG">
+              `;
+let slVue10 = `
+                <h1>What is Vue.js and What are its Advantages Slide 10</h1>
+                <h2>Following are the advantages of using Vue.js technology in web development.</h2>
+                <ul class="ul">
+                    <li>1-Very Small Size</li>
+                    <li>2-Easy to Understand and Develop Applications</li>
+                    <li>3-Simple Integration</li>
+                    <li>4-Detailed Documentation</li>
+                    <li>5-Flexibility</li>
+                    <li>6-Two-Way Communication</li>
+                </ul>
+                <p class="pera">
+                    In the end, we can say that Vue.js has clear advantages over all the earlier 
+                    frameworks like Angular.js and React.js. 
+                    In short, it combines the peculiar features of all the older frameworks.
+                </p>
+              `;
+
+let slVue11 = `
+                <h1>Resources Used For Preparation of this Display Slides</h1>
+                <ul class="ul">
+                    <li>https://vuejs.org/v2/guide/</li>
+                    <li>https://www.w3schools.com</li>
+                    <li>https://stackoverflow.com</li>
+                </ul>
+                <h2>Thanks Watching Patiently, Thank You</h2>
+              `;
+
+////
+arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6,slVue7,slVue8,slVue9,slVue10,slVue11 ];
 function goSlideForward() {
-    i++;slideCount++;
-    arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6 ];
+    i++;//slideCount++;
+    arr = [slVue1,slVue2,slVue3,slVue4,slVue5,slVue6,slVue7,slVue8,slVue9,slVue10,slVue11 ];
     if (i >= arr.length){
         i = 0;
     }
