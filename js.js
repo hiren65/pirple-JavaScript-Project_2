@@ -6,6 +6,9 @@ a1 = 1;a2 =2;a3 = 3;
 
 let i = -1;
 let slideCount = 0;
+
+let setT = 0;
+
 let btn = document.getElementById("btnF");
 btn.addEventListener("click",goSlideForward);
 let btn1 = document.getElementById("btnR");
@@ -16,7 +19,7 @@ btn1.addEventListener("click",goSlideRevarse);
 let slider = document.getElementById("slider");
 
 let slVue1 = `
-                <h2 id="head1">Vue js Fundamentals Introduction Slide 1</h2>
+                <h1 id="head1">Vue js Fundamentals Introduction Slide 1</h1>
                 <h3 id = "head2">What is Vue.js?</h3>
                 <img class="img" src="img/slideWhat1.PNG">
                 <p id="internal">
@@ -32,7 +35,7 @@ let slVue1 = `
                 </p>
               `;
 let slVue2 = `
-                <h2 id="head1">Your first Vue App Slide 2</h2>
+                <h1 id="head1">Your first Vue App Slide 2</h1>
                 <p class="pera">First I’ll go through the most basic example of using Vue.</p>
                 <h3 id = "head2">First example</h3>
                 <p class="pera">
@@ -46,7 +49,7 @@ let slVue2 = `
                 </p>
               `;
 let slVue3 = `
-                <h2 id="head1">Vue.js Directives Slide 3</h2>
+                <h1 id="head1">Vue.js Directives Slide 3</h1>
                 <h3 id = "head2">Data Binding</h3>
                 <p class="pera1">
                     Vue.js uses double braces {{ }} as place-holders for data.
@@ -68,7 +71,7 @@ let slVue3 = `
                 
               `;
 let slVue4 = `
-                 <h2 id="head1">VueJS - Instances Slide 4</h2>
+                 <h1 id="head1">VueJS - Instances Slide 4</h1>
                  <h3 id = "head2">Data Binding</h3>  
                  <p class="pera">
                  To start with VueJS, we need to create the instance of Vue, which is called the root Vue Instance.
@@ -88,7 +91,7 @@ let slVue4 = `
               `;
 
 let slVue5 = `
-                <h2 id="head1">Vue Components Slide 5</h2>
+                <h1 id="head1">Vue Components Slide 5</h1>
                 <p class="pera1">
                     Vue Components are one of the important features of VueJS that creates custom elements,
                     which can be reused in HTML.
@@ -275,3 +278,50 @@ function goSlideRevarse() {
     slider.innerHTML = arr[i];
 
 };
+let inputList = document.getElementById("listBox");
+let v1 = inputList.value = "Get Value";
+let v2;
+inputList.addEventListener("click",function () {
+    inputList.value = "";
+});
+
+let autoTimer = document.getElementById("btnPlay");
+autoTimer.addEventListener("click",setTimer);
+function setTimer(){
+    if (setT === 0){
+        v1 = inputList.value;
+        v2 = parseInt(v1,10);
+        //alert("find v2"+ v2);
+        if (typeof v2 !== "number" || v2<1000 || isNaN(v2)){
+            alert("wrong input or less than 1000 ");
+            return;
+        }
+        //alert(parseInt(v2,10));
+        autoTimer.innerText= "Stop";
+        setT = 1;
+        myFunction();
+        return;
+    }
+    if (setT === 1){
+        myStopFunction();
+        autoTimer.innerText= "Play Slides";
+        setT = 0;
+        return;
+    }
+
+}
+
+//create time interval for auto sliders
+var myVar;
+
+function myFunction() {
+    myVar = setInterval(function () {
+        //alert("hello");
+        goSlideForward();
+    },parseInt(v2,10));
+}
+
+function myStopFunction() {
+    clearTimeout(myVar);
+}
+

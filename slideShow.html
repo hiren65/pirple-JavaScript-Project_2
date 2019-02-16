@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Vue.js Frame Work Slide Show</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Volkhov" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+
 </head>
 <body>
+    <div>
+        <nav id="nav">
+            <ul>
+                <li id="tit">Slide Show</li>
+            </ul>
+        </nav>
+    </div>
     <div class="wrapper">
         <h1 id="title"> Vue JS Frameworks Fundamentals</h1>
         <div id="slider">
@@ -32,6 +42,19 @@
         <div id="buttons">
             <input type="button" id="btnF" value=">>" >
             <input type="button" id="btnR" value="<<" >
+        </div>
+
+        <div id="auto">
+            <span>Please Select Seconds :</span>
+            <input id="listBox" type="text" list="lan">
+            <datalist id="lan">
+                <option class="timeList" value="1000 MilliSeconds">
+                <option class="timeList" value="2000 MilliSeconds">
+                <option class="timeList" value="3000 MilliSeconds">
+                <option class="timeList" value="4000 MilliSeconds">
+                <option class="timeList" value="5000 MilliSeconds">
+            </datalist>
+            <button id="btnPlay">Play Slides</button>
         </div>
     </div>
     <footer >

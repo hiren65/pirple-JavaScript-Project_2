@@ -5,7 +5,7 @@ body{
 }
 .wrapper{
     display: grid;
-    grid-template-rows: 100px auto auto;
+    grid-template-rows: 100px auto auto 55px;
     grid-template-columns: 50px 800px 50px ;
     margin-left: auto;
     grid-gap: 10px;
@@ -14,7 +14,14 @@ body{
     grid-column: 1/4;
     border: 1px cyan solid;
     text-align: center;
-    color: darkkhaki;
+    color: #c5ffc5;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 50px;
+    background-color: darkblue;.
+    font-family: 'Volkhov', serif;
 }
 #slider{
     grid-column: 1/4;
@@ -53,8 +60,11 @@ body{
     float: right;
     margin-bottom: 7px;
 }
+#btnF:hover , #btnR:hover{
+    color: slateblue;
+}
 #head1{
-    color: #5a6ba5;
+    color: chartreuse;
     text-align: center;
 }
 #head2{
@@ -85,13 +95,16 @@ body{
 }
 .pera{
     text-align: center;
-    color: red;
+    color: #ffe06b;
+    font-family: 'Merriweather', serif;
 }
 .pera1{
     text-align: left;
     color: wheat;
     margin: auto;
     padding: 10px;
+
+    font-family: 'Merriweather', serif;
 }
 .img{
     margin-left:auto ;
@@ -114,4 +127,50 @@ body{
 h1,h2,h3{
     margin-left: 10px;
     color: chartreuse;
+}
+#auto{
+    grid-row: 4/5;
+    grid-column: 1/4;
+    background-color: burlywood;
+    border: darkkhaki 1px solid;
+
+}
+#listBox{
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#btnPlay{
+    width: 200px;
+    height: 35px;
+    font-size: 21px;
+    cursor: pointer;
+    color: #326400;
+}
+#btnPlay:hover{
+    color: #1926df;
+}
+#nav{
+    width: 920px;
+    background-color: black;
+    height: 35px;
+}
+#tit{
+    color: #f2f0ff;
+    font-size: 21px;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    display: block;
+    text-align: center;
+
+}
+span{
+    font-size: 21px;
+    color: #c5ffc5;
+;
 }
