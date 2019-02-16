@@ -238,7 +238,7 @@ let slVue10 = `
                     <li>5-Flexibility</li>
                     <li>6-Two-Way Communication</li>
                 </ul>
-                <p class="pera">
+                <p class="pera1">
                     In the end, we can say that Vue.js has clear advantages over all the earlier 
                     frameworks like Angular.js and React.js. 
                     In short, it combines the peculiar features of all the older frameworks.

@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slideShow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="-363">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="e#766#772#0" expanded="true" />
                 <element signature="e#792#798#0" expanded="true" />
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="240" column="31" selection-start-line="240" selection-start-column="31" selection-end-line="240" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+            <state relative-caret-position="429">
+              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -62,9 +62,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/slideShow.html" />
         <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/slideShow.html" />
       </list>
     </option>
   </component>
@@ -140,12 +140,12 @@
       <workItem from="1550223748109" duration="12051000" />
       <workItem from="1550271965049" duration="6434000" />
       <workItem from="1550283191468" duration="13234000" />
-      <workItem from="1550300132220" duration="1852000" />
+      <workItem from="1550300132220" duration="2596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46325000" />
+    <option name="totallyTimeSpent" value="47069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="126" width="1542" height="850" extended-state="0" />
@@ -193,28 +193,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js.js">
+    <entry file="file://$PROJECT_DIR$/slideShow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        <state relative-caret-position="-363">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#766#772#0" expanded="true" />
+            <element signature="e#792#798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+        <state relative-caret-position="429">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slideShow.html">
+    <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="e#766#772#0" expanded="true" />
-            <element signature="e#792#798#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="240" column="31" selection-start-line="240" selection-start-column="31" selection-end-line="240" selection-end-column="31" />
         </state>
       </provider>
     </entry>
